@@ -27,6 +27,10 @@ myApp.config(function ($routeProvider){
       templateUrl: 'pages/accounts/index.html',
       controller: 'secondController'
     })
+    .when('/search/',{
+      templateUrl: 'pages/search.html',
+      controller: 'secondController'
+    })
     .when('/second/:num',{
       templateUrl: 'pages/second.html',
       controller: 'secondController'
